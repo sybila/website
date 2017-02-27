@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="BioDivine - Distributed Verification for Biological Models">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Biodivine Toolset</title>
+
+    <link rel="shortcut icon" href="images/favicon.png">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.grey-orange.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <style type="text/css">
+    	.biodivine .main-grid {
+    		max-width: 1200px;
+    		padding-bottom: 100px;
+    	}
+    	.biodivine .card-title .mdl-card__title {
+    		height: 250px;
+  			background: url('images/graphics.jpg') center / cover;
+    	}
+    	.biodivine .mdl-layout__header-row {
+    		background-color: #424242;
+    		color: #FAFAFA;
+    	}
+    	.biodivine .mdl-navigation__link {
+    		color: #FAFAFA;
+    	}
+    	.biodivine .color-primary {
+    		color: #66bb6a;
+    	}
+    	.biodivine .mdl-card__subtitle {
+    		color: rgba(0,0,0,.7);
+		    font-size: 1.3rem;
+		    overflow: hidden;
+		    padding: 24px 16px 0px 16px;
+		    width: 90%;
+    	}
+
+    	.biodivine .mdl-button.github {
+    		min-width: 50px;
+    		min-height: 50px;
+    		position: absolute;
+    		top: 0;
+    		right: 0;
+    	}
+
+    	.biodivine .avocado .mdl-card__title {
+    		min-height: 150px;
+    		background-color: #8BC34A;
+    		color: #FAFAFA;
+    	}
+
+    	.biodivine .banana .mdl-card__title {
+    		min-height: 100px;
+    		background-color: #FFF176;    		
+    	}
+    	.biodivine .cherry .mdl-card__title {
+    		min-height: 100px;
+    		background-color: #673AB7;
+    		color: #FAFAFA;    		
+    	}
+		.biodivine .durian .mdl-card__title {
+    		min-height: 125px;
+    		background-color: #FFCA28;
+    		color: #FAFAFA;    		
+    	}
+
+    	.biodivine .mdl-card__actions {
+    		text-align: left;
+    	}
+
+    	/* Chip colors */
+
+    	.biodivine .mdl-chip.parallel {
+			background-color: #DCE775;
+    	}
+    	.biodivine .mdl-chip.distributed {
+			background-color: #BA68C8;
+			color: #FAFAFA;
+    	}
+
+    	.biodivine .mdl-chip.simulation {
+			background-color: #FFD54F
+;
+    	}
+    	.biodivine .mdl-chip.verification {
+			background-color: #7986CB;
+			color: #FAFAFA;
+    	}
+
+    	.biodivine .mdl-chip.ode {
+			background-color: #AED581;
+    	}
+    	.biodivine .mdl-chip.boolean {
+			background-color: #FFB74D;
+    	}
+    	.biodivine .mdl-chip.petri {
+			background-color: #4DB6AC;
+    	}
+    	.biodivine .mdl-chip.thomas {
+			background-color: #9575CD;
+    	}
+    </style>
+</head>
+<body>
+
+<div class="biodivine mdl-js-layout mdl-layout">
+	<header class="mdl-layout__header">
+    	<div class="mdl-layout__header-row">
+      		<!-- Title -->
+      		<span class="mdl-layout-title"><b><span class="color-primary">Bio</span>divine</b> Toolset</span>
+      		<!-- Add spacer, to align navigation to the right -->
+      		<div class="mdl-layout-spacer"></div>
+      		<!-- Navigation -->
+      		<nav class="mdl-navigation">
+      			<a class="mdl-navigation__link" href="avocado.html">Avocado</a>
+        		<a class="mdl-navigation__link" href="banana.html">Banana</a>
+        		<a class="mdl-navigation__link" href="cherry.html">Cherry</a>
+        		<a class="mdl-navigation__link" href="durian.html">Durian</a>        		
+        		<a class="mdl-navigation__link" target="_blank" href="http://sybila.fi.muni.cz">
+        			<img src="images/Sybila-Logo-Light.svg"/ width="100">
+    			</a>
+      			<a class="mdl-navigation__link" target="_blank" href="https://github.com/sybila">
+      				<img src="images/Github-Logo-Light.svg"/ width="80" style="position:relative; top:-2px;">
+				</a>        		
+      		</nav>
+    	</div>
+  	</header>
+  	<main class="mdl-layout__content">
+  		<div class="main-grid mdl-grid">
+  			<div class="card-title mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col">
+  				<div class="mdl-card__title mdl-card--expand"></div>
+  				<div class="mdl-card__subtitle">
+  					<b><span class="color-primary">Bio</span>divine</b>: From models to reality. And back.
+  				</div>
+  				<div class="mdl-card__supporting-text">  			
+  					Some people have an ability to write placeholder text... It's an art you're basically born with. You either have it or you don't. Lorem Ipsum is unattractive, both inside and out. I fully understand why it’s former users left it for something else. They made a good decision.  					
+  				</div>
+  			</div>
+	  		<div class="avocado card-tool mdl-card mdl-shadow--2dp mdl-cell mdl-cell--7-col">
+		  		<div class="mdl-card__title mdl-card--expand">
+		  			<button class="github mdl-button mdl-js-button mdl-js-ripple-effect">
+						<img src="images/GitHub-Mark-Light-32px.png"/>
+					</button>
+		    		<h2 class="mdl-card__title-text">Avocado</h2>
+		  		</div>
+		  		<div class="mdl-card__supporting-text">		    		
+		  			<p>
+		  				Lorem Ipsum's father was with Lee Harvey Oswald prior to Oswald's being, you know, shot. An 'extremely credible source' has called my office and told me that Lorem Ipsum's birth certificate is a fraud. Look at these words. Are they small words? And he referred to my words - if they're small, something else must be small. I guarantee you there's no problem, I guarantee.
+		  			</p>		    		
+		    		<span class="simulation mdl-chip">
+						<span class="mdl-chip__text">Simulation</span>
+					</span>
+					<span class="ode mdl-chip">
+						<span class="mdl-chip__text">Differential Equations</span>
+					</span>
+					<span class="parallel mdl-chip">
+						<span class="mdl-chip__text">Parallel</span>
+					</span>
+	
+		  		</div>
+		  		<div class="mdl-card__actions mdl-card--border">		  		
+		  			<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+		      			More Info
+		    		</a>
+		    		<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+		      			Tutorial
+		    		</a>		
+		  			<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+		      			Try Online
+		    		</a>
+		    		<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+		      			Download
+		    		</a>		    			
+		  		</div>
+		  	</div>
+		  	<div class="banana mdl-card mdl-shadow--2dp mdl-cell mdl-cell--5-col">
+		  		<div class="mdl-card__title mdl-card--expand">		  		
+		  			<button class="github mdl-button mdl-js-button mdl-js-ripple-effect">
+						<img src="images/GitHub-Mark-32px.png"/>
+					</button>
+		    		<h2 class="mdl-card__title-text">Banana</h2>
+		  		</div>
+		  		<div class="mdl-card__supporting-text">
+		    		<p>
+		    			I’m the best thing that ever happened to placeholder text. I know words. I have the best words. I don't think anybody knows it was Russia that wrote Lorem Ipsum, but I don't know, maybe it was. It could be Russia, but it could also be China. It could also be lots of other people. It also could be some wordsmith sitting on their bed that weights 400 pounds. 
+		    		</p>
+		    		<span class="verification mdl-chip">
+						<span class="mdl-chip__text">Verification</span>
+					</span>
+					<span class="boolean mdl-chip">
+						<span class="mdl-chip__text">Boolean Networks</span>
+					</span>
+					<span class="distributed mdl-chip">
+						<span class="mdl-chip__text">Distributed</span>
+					</span>
+		  		</div>
+		  		<div class="mdl-card__actions mdl-card--border">
+		    		<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+		      			More Info
+		    		</a>
+		    		<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+		      			Configuration
+		    		</a>	
+		    		<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+		      			Build
+		    		</a>
+		  		</div>
+		  	</div>
+		  	<div class="cherry mdl-card mdl-shadow--2dp mdl-cell mdl-cell--5-col">
+		  		<div class="mdl-card__title mdl-card--expand">		  		
+		  			<button class="github mdl-button mdl-js-button mdl-js-ripple-effect">
+						<img src="images/GitHub-Mark-Light-32px.png"/>
+					</button>
+		    		<h2 class="mdl-card__title-text">Cherry</h2>
+		  		</div>
+		  		<div class="mdl-card__supporting-text">
+		    		<p>
+		    			My text is long and beautiful, as, it has been well documented, are various other parts of my website. This placeholder text is gonna be HUGE.
+		    		</p>
+		    		<p>
+		    			Lorem Ipsum's father was with Lee Harvey Oswald prior to Oswald's being, you know, shot. All of the words in Lorem Ipsum have flirted with me - consciously or unconsciously. That's to be expected.
+		    		</p>
+		    		<span class="verification mdl-chip">
+						<span class="mdl-chip__text">Verification</span>
+					</span>
+					<span class="boolean mdl-chip">
+						<span class="mdl-chip__text">Boolean Networks</span>
+					</span>
+					<span class="petri mdl-chip">
+						<span class="mdl-chip__text">Petri Nets</span>
+					</span>
+					<span class="distributed mdl-chip">
+						<span class="mdl-chip__text">Parallel</span>
+					</span>
+		  		</div>
+		  		<div class="mdl-card__actions mdl-card--border">
+		    		<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+		      			More Info
+		    		</a>
+		    		<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+		      			What's new
+		    		</a>	
+		    		<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+		      			Clone
+		    		</a>
+		  		</div>
+		  	</div>
+		  	<div class="durian card-tool mdl-card mdl-shadow--2dp mdl-cell mdl-cell--7-col">
+		  		<div class="mdl-card__title mdl-card--expand">
+		  			<button class="github mdl-button mdl-js-button mdl-js-ripple-effect">
+						<img src="images/GitHub-Mark-Light-32px.png"/>
+					</button>
+		    		<h2 class="mdl-card__title-text">Durian</h2>
+		  		</div>
+		  		<div class="mdl-card__supporting-text">		    		
+		  			<p>
+		  				When other websites give you text, they’re not sending the best. They’re not sending you, they’re sending words that have lots of problems and they’re bringing those problems with us. They’re bringing mistakes. They’re bringing misspellings. They’re typists… And some, I assume, are good words. You know, it really doesn’t matter what you write as long as you’ve got a young, and beautiful, piece of text. I write the best placeholder text, and I'm the biggest developer on the web by far... While that's mock-ups and this is politics, are they really so different?
+		  			</p>		    		
+		    		<span class="simulation mdl-chip">
+						<span class="mdl-chip__text">Simulation</span>
+					</span>
+					<span class="ode mdl-chip">
+						<span class="mdl-chip__text">Differential Equations</span>
+					</span>
+					<span class="thomas mdl-chip">
+						<span class="mdl-chip__text">Thomas Networks</span>
+					</span>
+					<span class="parallel mdl-chip">
+						<span class="mdl-chip__text">Parallel</span>
+					</span>
+					<span class="distributed mdl-chip">
+						<span class="mdl-chip__text">Distributed</span>
+					</span>
+		  		</div>
+		  		<div class="mdl-card__actions mdl-card--border">		  		
+		  			<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+		      			More Info
+		    		</a>		  
+		    		<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+		      			How it works
+		    		</a>	  		
+		  			<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+		      			Cite
+		    		</a>
+		    		<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+		      			Try Online
+		    		</a>	
+		    		<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+		      			Download
+		    		</a>		    			
+		  		</div>
+		  	</div>
+  		</div>  		
+  	</main>
+  	<footer class="mdl-mini-footer">
+  		<div class="mdl-mini-footer__left-section">
+	    	<div class="mdl-logo">
+	    		<b><span class="color-primary">Bio</span>divine</b> Toolset
+			</div>
+    		<ul class="mdl-mini-footer__link-list">
+      			<li><a href="#">Help</a></li>
+      			<li><a href="#">Privacy & Terms</a></li>
+    		</ul>
+  		</div>
+  	</footer>
+</div>
+
+</body>
+</html>
